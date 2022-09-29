@@ -1,0 +1,11 @@
+{
+  "name": "samurai",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "author": "Michael Gummere <me@disilla.org>",
+  "license": "zlib-acknowledgement",
+  "private": true,
+  "dependencies": {
+    "@chronomly/katana": "^0.1.0"
+  }
+}
