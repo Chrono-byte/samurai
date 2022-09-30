@@ -10,6 +10,7 @@ for (let index = 0; index < nameArray.length; index++) {
 	blade.write(`Hello! ${nameArray[index % nameArray.length]}`, x);
 	let y = blade.get(x);
 	console.log([x, y]);
+	console.log(blade.has(x));
 }
 
 for (const key in blade.library) {
