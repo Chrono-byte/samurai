@@ -6,7 +6,7 @@ const nameArray = ["John", "Jane", "Jack", "Jill", "Jenny", "Jen", "Bob", "Jacki
 
 blade.purgeState();
 
-for (let index = 0; index < nameArray.length; index++) {
+for (let index = 0; index < nameArray.length; ++index) {
 	let x = Math.floor(Math.random() * 100000);
 	blade.write(`Hello! ${nameArray[Math.floor(x / 10000)]}`, x);
 	console.log([x, blade.get(x), blade.has(x)]);
